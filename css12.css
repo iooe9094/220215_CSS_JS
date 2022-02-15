@@ -1,0 +1,8 @@
+div {
+    border: solid 2px black;
+    text-shadow: 50px 50px 10px #FF511C;
+    /* css3 제너레이터에서 복사해서 사용 */
+    -webkit-box-shadow: 50px 50px 10px 10px #26FF1F;
+box-shadow: 50px 50px 10px 10px #26FF1F;
+    /* 마찬가지로 css3 제너레이터에서 복사해서 사용 */
+}

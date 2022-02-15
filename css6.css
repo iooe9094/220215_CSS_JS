@@ -1,0 +1,8 @@
+body {
+    background-image: url(../img/BackgroundFront.png), url(../img/BackgroundBack.png);
+    /* 1개 단독으로도 가능하고, 2개 함께 삽입이 가능함 */
+    background-size: 100% 300px;
+    /* 뒷배경사진 사이즈 및 높이 조절 */
+    background-repeat: no-repeat;
+    /* 뒷배경사진 하나만나오게, 4개, 등등 */
+}

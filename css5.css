@@ -1,0 +1,6 @@
+#box {
+    display: none
+    /* none : 원하는 부분 태그해서 가려짐 */
+    /* block : 세로로(줄바꿈o)*/
+    /* inline : 가로로(줄바꿈x) */
+}

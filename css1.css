@@ -1,0 +1,17 @@
+h3 {
+    padding-left: 10px;
+    border-left: solid 8px blue;
+    /* border-left-style */
+    /* border-left-width */
+    /* border-left-color 사용하면 깔끔하게 보이는(설명되는) 효과 */
+}
+p {
+    width: 500px;
+    /* 글자를 감싸는 테두리 가로 길이(폭)의 변화 */
+    border: solid 1px black;
+    /* style, width, color */
+    padding: 20px;
+    /* 글자를 감싸는 테두리의 크기 변화 */
+    margin-top: 20px;
+    /* h3와 p 간격 차이가 발생 */
+}

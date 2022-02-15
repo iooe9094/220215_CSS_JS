@@ -1,0 +1,28 @@
+.box {
+    width: 100px; height: 100px;
+    position: absolute;
+}
+.box:nth-child(1) { 
+    background-color: red;
+    left: 20px; top: 20px;
+    /* (0,0)은 상단 왼쪽 모서리가 기준이다(절대위치) */
+    /* z-index 값 높게 설정된 것이 맨 앞에 오게 된다 */
+    z-index: 100
+}
+.box:nth-child(2) { 
+    background-color: green;
+    left: 40px; top: 40px;
+    z-index: 50;
+}
+.box:nth-child(3) { 
+    background-color: blue;
+    left: 60px; top: 60px;
+    z-index: 10;
+}
+body > div {
+    width: 400px; height: 100px;
+    border: solid 2px black;
+    position: relative;
+}
+/* z-index가 1이 100 2가 50 3이 10이면 1>2>3 순으로 정렬됨*/
+/* 교재 198페이지 참고해서 보기 */
